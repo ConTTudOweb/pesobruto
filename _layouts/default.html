@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+
+  {%- include head.html -%}
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+      {%- include header.html -%}
+
+      <main role="main" class="inner cover">
+        {{ content }}
+      </main>
+
+      {%- include footer.html -%}
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="{{ '/assets/js/jquery-slim.min.js' | prepend: site.baseurl }}"><\/script>')</script>
+    <script src="{{ '/assets/js/popper.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/assets/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+  </body>
+
+</html>

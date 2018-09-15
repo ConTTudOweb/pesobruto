@@ -1,0 +1,37 @@
+baseurl: ""
+
+# Site settings
+
+url: "http://pesobruto.com.br/"
+lang: pt-br
+author: ConTTudOweb
+title: Posto de Molas Peso Bruto
+image: /img/logo-site-facebook.png
+
+# End Site settings
+
+# SEO settings
+
+#facebook:
+  #app_id: 1234
+  #publisher: 1234
+  #admins: 1234
+
+#twitter:
+  #username: pesobruto
+  #card: summary
+
+#webmaster_verifications:
+  #google: 1234
+  #bing: 1234
+  #alexa: 1234
+  #yandex: 1234
+  #baidu: 1234
+
+# End SEO settings
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed

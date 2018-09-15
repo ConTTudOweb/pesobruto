@@ -1,0 +1,10 @@
+<header class="masthead mb-auto">
+  <div class="inner">
+    <h3 class="masthead-brand"></h3><img class="masthead-brand" src="{{ '/assets/img/logo.png' | prepend: site.baseurl }}">
+    <nav class="nav nav-masthead justify-content-center">
+      <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{site.baseurl}}/">INÍCIO</a>
+      <a class="nav-link {% if page.url == '/endereco/' %}active{% endif %}" href="{{site.baseurl}}/endereco">ENDEREÇO</a>
+      <a class="nav-link {% if page.url == '/contato/' %}active{% endif %}" href="{{site.baseurl}}/contato">CONTATO</a>
+    </nav>
+  </div>
+</header>
